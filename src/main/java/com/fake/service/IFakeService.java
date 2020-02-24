@@ -1,11 +1,10 @@
 package com.fake.service;
 
-import com.fake.model.FakeModel;
-
-import io.reactivex.Observable;
+import reactor.core.publisher.Flux;
 
 public interface IFakeService {
 	
-	Observable<FakeModel> getUsers();
+	Flux<Object> getFake();
+	Flux<Object> getFake2(String id);
 
 }

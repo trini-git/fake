@@ -7,8 +7,6 @@ public class FakeModel {
 	
 	private String name;
 	
-	
-
 	public FakeModel() {
 		
 		this.name = "Pablo Trinidad";
